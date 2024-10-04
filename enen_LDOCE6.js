@@ -10,7 +10,7 @@ class encn_LDOCE6MDX {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return '朗文英英词典(mdx)';
         if (locale.indexOf('TW') != -1) return '朗文英英词典(mdx)';
-        return 'Longman English Dictionary(mdx)';
+        return 'Longman English Dictionary(by nhatnb)';
     }
 
 
