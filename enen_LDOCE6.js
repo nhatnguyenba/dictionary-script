@@ -1,5 +1,5 @@
 /* global api */
-class encn_LDOCE6MDX {
+class encn_LDOCE6MDX_nhatnb {
     constructor(options) {
         this.options = options;
         this.maxexample = 6;
