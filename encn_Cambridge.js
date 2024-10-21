@@ -2,7 +2,7 @@
 class encn_Cambridge {
     constructor(options) {
         this.options = options;
-        this.maxexample = 2;
+        this.maxexample = 100;
         this.word = '';
     }
 
@@ -15,7 +15,7 @@ class encn_Cambridge {
 
     setOptions(options) {
         this.options = options;
-        this.maxexample = options.maxexample;
+        this.maxexample = 100;
     }
 
     async findTerm(word) {
